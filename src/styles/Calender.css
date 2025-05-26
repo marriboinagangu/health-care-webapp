@@ -1,0 +1,67 @@
+.calender-content {
+  width: 600px;
+  max-width: 100%;
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+.calender-content * {
+  color: #3339a6;
+  font-weight: bold;
+  border: none;
+}
+
+.mbsc-schedule-event {
+  color: #3339a6; 
+}
+
+.mbsc-schedule-row:nth-child(even) {
+  background-color: #dde2f9 !important;
+  border: none;
+}
+
+
+.mbsc-schedule-grid,
+.mbsc-schedule-row {
+  padding: 4px;
+}
+
+
+.calender-content {
+  width: 600px;
+  max-width: 100%;
+  padding: 10px;
+  font-family: sans-serif;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+
+.calender-content .mbsc-schedule,
+.calender-content .mbsc-schedule-row,
+.calender-content .mbsc-schedule-grid,
+.calender-content .mbsc-calendar-week-day,
+.calender-content .mbsc-calendar-cell,
+.calender-content .mbsc-calendar {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+
+.calender-content {
+  color: #3339a6 !important;
+}
+
+
+.calender-content .mbsc-schedule-row:nth-child(even) {
+  background-color: #dde2f9 !important;
+}
+
+.calender-content .mbsc-schedule-row {
+  padding: 4px;
+}
+
+.calender-content .mbsc-calendar-cell {
+  box-shadow: none !important;
+  border: none !important;
+}

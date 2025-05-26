@@ -1,0 +1,42 @@
+.schedule-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+.up-card-content {
+  background-color: #dde2f9;
+  padding: 1rem 3rem;
+  color: black;
+  border-radius: 8px;
+}
+
+.upcoming-main h3 {
+  color: #3339a6;
+  margin-bottom: 10px;
+}
+.upcoming-main > p {
+  color: grey;
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.emoji {
+  font-size: 1.3rem;
+  margin-right: 6px;
+  display: inline-block;
+}
+
+.small-card {
+  display: flex;
+  justify-content: space-around;
+}
+.card-1 {
+  text-align: center;
+
+  background-color: #3339a6;
+  padding: 0.2rem 3rem;
+  border-radius: 15px;
+}

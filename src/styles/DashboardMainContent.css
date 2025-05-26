@@ -1,0 +1,138 @@
+.dashboard {
+  display: flex;
+  gap: 10px;
+  height: 85vh;
+
+  padding: 5px;
+  flex-wrap: wrap;
+  /* border: 2px solid black; */
+}
+
+.dashboard-option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0 10px;
+}
+
+.dashboard-option h2 {
+  color: #3c39ac;
+  font-size: 18px;
+}
+
+.dashboard-option select {
+  border: none;
+  outline: none;
+  color: #3c39ac;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 6px 10px;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+}
+
+/* Anatomy section layout */
+.anatomySection-content {
+  flex: 1;
+  max-width: 590px;
+  display: flex;
+  gap: 20px;
+}
+
+/* Calendar section layout */
+.calender-content {
+  width: 600px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .dashboard {
+    flex-direction: column;
+    height: auto;
+    overflow-y: scroll;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .dashboard-option {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px 0;
+  }
+
+  .dashboard-option select {
+    margin: 0;
+    width: 100%;
+  }
+
+  .anatomySection-content,
+  .calender-content {
+    width: 100%;
+    max-width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+@media (max-width: 480px) {
+  .dashboard {
+    flex-direction: column;
+    height: auto;
+    padding: 8px;
+    gap: 15px;
+  }
+
+  .dashboard-option {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 10px;
+  }
+
+  .dashboard-option h2 {
+    font-size: 16px;
+  }
+
+  .dashboard-option select {
+    width: 100%;
+    font-size: 14px;
+    padding: 6px;
+  }
+
+  .anatomySection-content {
+    flex-direction: column;
+    gap: 10px;
+    max-width: 100%;
+  }
+
+  .calender-content {
+    width: 100%;
+    padding: 10px 0;
+    gap: 15px;
+  }
+
+  .card {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .card h5 {
+    font-size: 16px;
+  }
+
+  .card p {
+    font-size: 12px;
+  }
+
+  .range-slider {
+    width: 100%;
+  }
+}

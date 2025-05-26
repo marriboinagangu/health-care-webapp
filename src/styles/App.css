@@ -1,0 +1,201 @@
+.app-container {
+  height: 95vh;
+  overflow: hidden;
+  margin: 0px;
+  display: flex;
+  border-radius: 15px;
+  flex-direction: column;
+}
+
+.parent-container {
+  display: flex;
+  flex-direction: column;
+  height: 95vh;
+}
+
+.app-second-content {
+  display: flex;
+  flex: 1;
+  height: 95vh;
+}
+
+.sidebar-content {
+  width: 250px;
+  margin: 10px;
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+.app-main-dashboard {
+  flex: 1;
+  margin: 5px;
+  padding: 10px;
+  background-color: white;
+  height: 95vh;
+  border-radius: 15px;
+}
+
+/* Calendar */
+.calender-content {
+  height: 200px;
+}
+
+/* ✅ Mobile & Tablet Responsive Styles */
+@media (max-width: 768px) {
+  .app-container {
+    height: auto;
+    margin: 5px;
+  }
+
+  .app-second-content {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .sidebar-content {
+    width: 100%;
+    margin: 5px 0;
+    border-radius: 10px;
+  }
+
+  .app-main-dashboard {
+    height: auto;
+    margin: 5px 0;
+    padding: 10px;
+  }
+
+  .calender-content {
+    height: auto;
+  }
+}
+
+.app-container {
+  height: 95vh;
+  overflow: hidden;
+  margin: 10px;
+  display: flex;
+  border-radius: 15px;
+  flex-direction: column;
+}
+
+.parent-container {
+  display: flex;
+  flex-direction: column;
+  height: 95vh;
+}
+
+.app-second-content {
+  display: flex;
+  flex: 1;
+  height: 95vh;
+}
+
+.sidebar-content {
+  width: 250px;
+  margin: 10px;
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+.app-main-dashboard {
+  flex: 1;
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  height: 95vh;
+  border-radius: 15px;
+}
+
+/* Calendar */
+.calender-content {
+  height: 200px;
+}
+
+/* ✅ Mobile & Tablet Responsive Styles */
+@media (max-width: 768px) {
+  .app-container {
+    height: auto;
+    margin: 5px;
+  }
+
+  .app-second-content {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .sidebar-content {
+    width: 100%;
+    margin: 5px 0;
+    border-radius: 10px;
+  }
+
+  .app-main-dashboard {
+    height: auto;
+    margin: 5px 0;
+    padding: 10px;
+  }
+
+  .calender-content {
+    height: auto;
+  }
+}
+@media (max-width: 480px) {
+  .app-container {
+    margin: 5px;
+    padding: 5px;
+    height: auto;
+  }
+
+  .app-second-content {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .sidebar-content {
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .app-main-dashboard {
+    width: 100%;
+    height: auto;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .calender-content {
+    height: auto;
+    padding: 10px;
+  }
+
+  .dashboard-option select {
+    margin: 0;
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .dashboard-option h2 {
+    font-size: 18px;
+  }
+
+  .card {
+    padding: 10px;
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .card h5 {
+    font-size: 16px;
+  }
+
+  .card p {
+    font-size: 12px;
+  }
+
+  .range-slider {
+    width: 100%;
+  }
+}
